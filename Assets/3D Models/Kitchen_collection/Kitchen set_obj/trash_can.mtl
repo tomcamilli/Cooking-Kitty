@@ -1,0 +1,20 @@
+# Blender MTL File: 'Kitchen collection_blend.blend'
+# Material Count: 2
+
+newmtl trash_can_chrome
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.272960 0.420400 0.470560
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl trash_can_plastic
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.053360 0.053360 0.053360
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2

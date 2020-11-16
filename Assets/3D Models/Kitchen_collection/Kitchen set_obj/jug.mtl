@@ -1,0 +1,20 @@
+# Blender MTL File: 'Kitchen collection_blend.blend'
+# Material Count: 2
+
+newmtl jug_glass_2
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.294880 0.367040
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl jug_juice
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.517680 0.467440 0.194480
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2

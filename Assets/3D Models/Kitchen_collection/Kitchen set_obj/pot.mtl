@@ -1,0 +1,20 @@
+# Blender MTL File: 'Kitchen collection_blend.blend'
+# Material Count: 2
+
+newmtl pot_base
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.078400 0.078400 0.078400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl pot_metal
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.254080 0.254080 0.254080
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2

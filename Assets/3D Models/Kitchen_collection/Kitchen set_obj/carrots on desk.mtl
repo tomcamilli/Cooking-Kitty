@@ -1,0 +1,29 @@
+# Blender MTL File: 'Kitchen collection_blend.blend'
+# Material Count: 3
+
+newmtl carrot_leaves
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.730960 0.153760
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl carrots
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.432960 0.185120 0.047040
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl carrots_wooden_desk
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.398400 0.307440 0.182000
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
