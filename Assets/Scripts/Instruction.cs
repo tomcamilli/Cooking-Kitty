@@ -16,6 +16,7 @@ public class Instruction : ICommand {
     public int stepNumber;
     //what is the basic instruction?
     public string instructiontext;
+    public string gestureNeeded;
     public TextMeshProUGUI stepDisplay;
 
     //command from the ICommand Interface
