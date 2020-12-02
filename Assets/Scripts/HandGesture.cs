@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using Leap;
 using Leap.Unity;
+
+[System.Serializable] public class _UnityEventString:UnityEvent<string> {} // create a class for gesture event with string argument
 
 public class HandGesture : MonoBehaviour
 {
@@ -15,6 +18,8 @@ public class HandGesture : MonoBehaviour
     int count; // number of objects in queue
     int buffer_flag; //flag for once buffer is full
     List<string> frame_buffer; // buffer to hold past frames
+    [Header("This is an event for gesture detection!")]
+     public _UnityEventString gestureDetected; // UnityEvent for gesture detection
 
     // Start is called before the first frame update
     void Start()
@@ -209,7 +214,8 @@ public class HandGesture : MonoBehaviour
             {
                 if (frame_buffer[i] == "none") 
                 {
-                    Debug.Log(gesture);
+                    Debug.Log(gesture); // print gesture to console
+                    gestureDetected.Invoke(gesture); // call event
                     return;
                 }
                 if (i == 0) return;
